@@ -1,0 +1,38 @@
+{
+  "name": "loop-subdivide",
+  "version": "1.0.0",
+  "description": "Applies on iteration of Loop's subdivision surface algorithm to a triangulated mesh",
+  "main": "loop.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "simplicial-complex": "^1.0.0"
+  },
+  "devDependencies": {
+    "bunny": "^1.0.1",
+    "canvas-fit": "^1.2.0",
+    "gl-scene3d": "^1.0.0",
+    "gl-simplicial-complex": "^3.0.4"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikolalysenko/loop-subdivide.git"
+  },
+  "keywords": [
+    "loop",
+    "subdivision",
+    "mesh",
+    "triangular",
+    "mesh"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/loop-subdivide/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/loop-subdivide"
+}
